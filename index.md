@@ -6,7 +6,7 @@ title: Fatima Moizuddin
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/profile-pic.png" | relative_url }}){: class="profile-image"}
 
  
 My name is Fatima Moizuddin, and I am a student in Cornell University 
