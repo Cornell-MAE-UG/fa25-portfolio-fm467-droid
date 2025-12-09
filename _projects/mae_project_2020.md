@@ -2,7 +2,7 @@
 layout: project
 title: Design of an Actuator 
 description: Just an Actunator that I designed
-image: /assets/images/actuator.png
+image: /assets/images/IMG_3065.jpg
 ---
 
 
