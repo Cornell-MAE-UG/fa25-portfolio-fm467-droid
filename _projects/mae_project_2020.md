@@ -17,6 +17,8 @@ Counterflow: hot and cold streams flow in opposite directions. This maintains a 
 
 ![Heat exchanger setup](/assets/images/chematic.png)
 ![Heat exchanger setup](/assets/images/CV.png)
+![Heat exchanger setup](/assets/images/TABLE.png)
+![Heat exchanger setup](/assets/images/Calculation.png)
 
 
 Observation: Based on the cold-side measurements, the exchanger transferred roughly 8–13 kW across our runs.
