@@ -15,6 +15,8 @@ We tested two configurations:
 Parallel flow: hot and cold streams flow in the same direction. The temperature difference is largest at the inlet and decreases quickly along the exchanger length.
 Counterflow: hot and cold streams flow in opposite directions. This maintains a larger temperature difference over a greater portion of the exchanger, allowing counterflow to transfer more heat for the same inlet conditions. Based on this stiffness requirement, a mass-efficient hollow rectangular aluminum (6061-T6) cross-section was selected. This section satisfied the minimum second moment of area while minimizing structural mass and keeping deflection within acceptable limits. Throughout the design process, actuator force limits, geometric constraints, and material efficiency were used as the primary criteria for all engineering decisions, ensuring that the final design achieved the highest possible mechanical performance within the stated constraints.
 
+![Heat exchanger setup](/assets/images/chematic.png)
+
 Observation: Based on the cold-side measurements, the exchanger transferred roughly 8–13 kW across our runs.
 We expect some mismatch in Qc and Qh because of real-system effects, heat loss from tubing/exchanger to the room, unequal pump flow rates, imperfect reservoir mixing, and thermometer lag/placement. This is typical outside ideal textbook conditions.
 
