@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Design of an Actuator 
-description: Just an Actunator that I designed
+description: Experimenting with a Parallel vs Counter-flow Heat Exchanger
 image: /assets/images/IMG_3065.jpg
 ---
 
