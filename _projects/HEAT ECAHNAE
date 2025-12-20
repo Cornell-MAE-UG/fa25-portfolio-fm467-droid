@@ -2,7 +2,7 @@
 layout: project
 title: Heat Exchanger
 description: Experimenting with a Parallel vs Counter-flow Heat Exchanger
-image: /assets/images/image-4.png
+image: /assets/images/image(4).png
 ---
 
 **Amina Lesbekova** (al2589)  
@@ -50,7 +50,7 @@ Increasing the inlet temperature of the hot fluid increases the driving temperat
 
 ## Control Volume Diagram
 
-![Control volume diagram](/assets/images/image-1.png)
+![Control volume diagram](/assets/images/image(1).png)
 
 ---
 
@@ -69,7 +69,7 @@ Increasing the inlet temperature of the hot fluid increases the driving temperat
 
 </div>
 
-![Measured temperatures](/assets/images/image-2.png)
+![Measured temperatures](/assets/images/image-(2).png)
 
 ---
 
@@ -94,7 +94,7 @@ Differences between Qc and Qh are expected due to real-system effects, including
 
 ### Effectiveness
 
-![Effectiveness comparison](/assets/images/image-3.png)
+![Effectiveness comparison](/assets/images/image-(3).png)
 
 <div style="overflow-x:auto;">
 
