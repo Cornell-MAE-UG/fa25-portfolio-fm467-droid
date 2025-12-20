@@ -6,6 +6,8 @@ image: /assets/images/HeatEchange.png
 ---
 
 
+Amina Lesbekova al2588
+Fatima Moizuddin fm467
 In this lab we analyzed a real water-to-water heat exchanger and compared its performance in parallel flow and counterflow configurations. Our goals were to (1) describe how the exchanger works physically, (2) apply mass, energy, and entropy balances to a real system, and (3) determine how changing an operating/design condition changes performance. Heat exchangers like this are central to many engineering systems, including car radiators, HVAC units, power-plant condensers and feedwater heaters, chemical reactors with cooling jackets, and refrigeration systems. Therefore, this lab provided us with a realistic thermodynamics outcome to share with employers.
 
 A heat exchanger is a device that transfers heat from a hot fluid to a cold fluid without allowing the two fluids to mix. The fluids flow through separate channels, and heat moves through the wall from the hotter side to the colder side. As the hot fluid releases heat and cools down, the cold fluid absorbs that heat and warms up. They can be arranged in both parallel flow where both fluids move in the same direction, or counterflow where they move in opposite directions.
@@ -21,11 +23,17 @@ Counterflow: hot and cold streams flow in opposite directions. This maintains a 
 ![Heat exchanger setup](assets/images/Calculation.png)
 ![Heat exchanger setup](assets/images/DATA.png)
 
+![Heat exchanger setup]({{ "/assets/images/chematic.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/CV.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/TABLE.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/Calculation.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/DATA.png" | relative_url }})
 
 
 Observation: Based on the cold-side measurements, the exchanger transferred roughly 8–13 kW across our runs.
 We expect some mismatch in Qc and Qh because of real-system effects, heat loss from tubing/exchanger to the room, unequal pump flow rates, imperfect reservoir mixing, and thermometer lag/placement. This is typical outside ideal textbook conditions.
-![Heat exchanger setup](assets/images/EFFECTIVE_NE.png)
+
+![Heat exchanger setup]({{ "/assets/images/EFFECTIVE_NE.png" | relative_url }})
 
 
 For the most fair comparison between flow arrangements, we looked at our second parallel-flow run and our first counterflow run because they began with nearly the same hot-side starting temperature, around 35 degrees Celsius, and very similar cold-side starting temperatures. Under these matched conditions, the counterflow setup performed a little better: it achieved a slightly higher effectiveness and transferred heat to the cold stream at a slightly greater rate than the parallel-flow setup. 
