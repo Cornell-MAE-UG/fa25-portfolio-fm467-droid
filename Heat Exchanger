@@ -1,0 +1,123 @@
+---
+layout: project
+title: Heat Exchanger
+description: Experimenting with a Parallel vs Counter-flow Heat Exchanger
+image: /assets/images/image-4.png
+---
+
+**Amina Lesbekova** (al2589)  
+**Fatima Moizuddin** (fm467)
+
+---
+
+## Purpose and Real-World Relevance
+
+In this lab, we analyzed a real water-to-water heat exchanger and compared its performance under parallel-flow and counterflow configurations. The objectives of the experiment were to:
+
+1. Describe the physical operation of a heat exchanger  
+2. Apply mass, energy, and entropy balances to a real system  
+3. Examine how changes in operating or design conditions affect performance  
+
+Heat exchangers are critical components in many engineering systems, including automotive radiators, HVAC systems, power-plant condensers and feedwater heaters, chemical reactors with cooling jackets, and refrigeration systems. This lab therefore provided a realistic thermodynamics application suitable for presentation to prospective employers.
+
+---
+
+## Device Description (Qualitative)
+
+A heat exchanger transfers thermal energy from a hot fluid to a cold fluid without allowing the two fluids to mix. The fluids flow through separate channels, and heat is transferred across a solid wall from the hotter fluid to the colder fluid.
+
+As the hot fluid releases heat, its temperature decreases, while the cold fluid absorbs this heat and warms up. Heat exchangers can be arranged in two primary configurations:
+
+- **Parallel flow**, where both fluids enter and flow in the same direction  
+- **Counterflow**, where the fluids flow in opposite directions  
+
+In a parallel-flow exchanger, the temperature difference between the fluids is largest at the inlet and decreases rapidly along the length of the exchanger, resulting in lower overall heat transfer. In contrast, counterflow maintains a larger temperature difference over much of the exchanger length, leading to higher heat transfer rates and improved heating of the cold fluid.
+
+Increasing the inlet temperature of the hot fluid increases the driving temperature difference and therefore increases heat transfer in both configurations, with counterflow benefiting the most.
+
+### Tested Configurations
+
+- **Parallel flow:** Hot and cold streams flow in the same direction. The temperature difference is highest at the inlet and decreases quickly along the exchanger length.  
+- **Counterflow:** Hot and cold streams flow in opposite directions, maintaining a larger temperature difference over a greater portion of the exchanger.
+
+---
+
+## Photos and Schematics of the Device
+
+![Heat exchanger setup](/assets/images/image.png)
+
+---
+
+## Control Volume Diagram
+
+![Control volume diagram](/assets/images/image-1.png)
+
+---
+
+## Measurements
+
+### Temperature and Flow Rate Data
+
+<div style="overflow-x:auto;">
+
+| Run | Configuration      | Tc,in (°C) | Th,in (°C) | Tc,out (°C) | Th,out (°C) | Flow Rate (gal/hr) |
+|-----|-------------------|------------|------------|-------------|-------------|--------------------|
+| 1   | Parallel flow     | 6.8        | 40.0       | 15.9        | 24.6        | 210                |
+| 2   | Parallel flow     | 8.7        | 35.0       | 21.1        | 23.7        | 210                |
+| 3   | Counterflow       | 9.2        | 35.0       | 22.1        | 18.0        | 210                |
+| 4   | Counterflow (hot) | 10.0       | 40.0       | 23.9        | 19.6        | 210                |
+
+</div>
+
+![Measured temperatures](/assets/images/image-2.png)
+
+---
+
+### Heat Transfer Results
+
+<div style="overflow-x:auto;">
+
+| Run | Configuration      | ΔTc (K) | Qc (kW) | ΔTh (K) | Qh (kW) |
+|-----|-------------------|---------|---------|---------|---------|
+| 1   | Parallel flow     | 9.1     | 8.40    | 15.4    | 14.21   |
+| 2   | Parallel flow     | 12.4    | 11.44   | 11.3    | 10.43   |
+| 3   | Counterflow       | 12.9    | 11.91   | 17.0    | 15.69   |
+| 4   | Counterflow (hot) | 13.9    | 12.83   | 20.4    | 18.83   |
+
+</div>
+
+Based on cold-side measurements, the heat exchanger transferred approximately **8–13 kW** across all runs.
+
+Differences between Qc and Qh are expected due to real-system effects, including heat loss to the surroundings, unequal pump flow rates, imperfect reservoir mixing, and sensor lag or placement. These deviations are typical for experimental systems and differ from idealized textbook models.
+
+---
+
+### Effectiveness
+
+![Effectiveness comparison](/assets/images/image-3.png)
+
+<div style="overflow-x:auto;">
+
+| Run | Configuration      | Effectiveness (ε) |
+|-----|-------------------|------------------|
+| 1   | Parallel flow     | 0.27             |
+| 2   | Parallel flow     | 0.47             |
+| 3   | Counterflow       | 0.50             |
+| 4   | Counterflow (hot) | 0.46             |
+
+</div>
+
+For the most direct comparison between flow arrangements, Run 2 (parallel flow) and Run 3 (counterflow) were analyzed because they had nearly identical hot-side inlet temperatures (approximately 35 °C) and similar cold-side inlet conditions. Under these matched conditions, the counterflow configuration demonstrated slightly higher effectiveness and greater heat transfer to the cold stream.
+
+---
+
+## Conclusions
+
+This experiment demonstrated a realistic thermodynamic analysis of a working heat exchanger:
+
+- Cold-side heat transfer rates ranged from approximately **8 to 13 kW**  
+- Under similar inlet conditions, **counterflow achieved higher effectiveness** (0.50) than parallel flow (0.47)  
+- Increasing the hot-reservoir inlet temperature in counterflow increased heat transfer by approximately **8%**  
+- Energy-rate mismatches between hot and cold sides were expected due to real heat losses and flow nonuniformities  
+
+Overall, this lab provided a concrete example of applying mass, energy, and entropy balances to a real engineering device and illustrated how both design choices (flow arrangement) and operating conditions (inlet temperature) directly affect heat exchanger performance.
