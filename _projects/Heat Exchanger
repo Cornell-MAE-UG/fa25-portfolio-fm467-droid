@@ -24,13 +24,13 @@ Counterflow: hot and cold streams flow in opposite directions. This maintains a 
 ---
 
 ## Photos and schematics of the device or system
-![Heat exchanger setup](image.png)
+![Heat exchanger setup]({{ "/assets/images/image.png" | relative_url }})
 
 
 ---
 
 ## Control Volume diagrams:
-![Heat exchanger setup](image(1).png)
+![Heat exchanger setup]({{ "/assets/images/image(1).png" | relative_url }})
 
 ---
 
@@ -45,7 +45,7 @@ Counterflow: hot and cold streams flow in opposite directions. This maintains a 
 | 3 | Counterflow | 9.2 | 35.0 | 22.1 | 18.0 | 210 |
 | 4 | Counterflow (hotter start) | 10.0 | 40.0 | 23.9 | 19.6 | 210 |
 
-![Heat exchanger setup](image(2).png)
+![Heat exchanger setup]({{ "/assets/images/image(2).png" | relative_url }})
 
 
 ---
@@ -66,7 +66,7 @@ We expect some mismatch in Qc and Qh because of real-system effects, heat loss f
 ---
 
 ### Effectiveness
-![Heat exchanger setup](image(3).png)
+![Heat exchanger setup]({{ "/assets/images/image(3).png" | relative_url }})
 
 | Run | Configuration | ε |
 |-----|--------------|---|
