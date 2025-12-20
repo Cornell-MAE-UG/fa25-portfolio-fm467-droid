@@ -2,7 +2,7 @@
 layout: project
 title: Heat Exchanger Final
 description: Experimenting with a Parallel vs Counter-flow Heat Exchanger
-image: /assets/images/IMG_3065.jpg
+image: /assets/images/HeatEchange.png
 ---
 
 
