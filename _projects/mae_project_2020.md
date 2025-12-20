@@ -8,6 +8,8 @@ image: /assets/images/HeatEchange.png
 
 Amina Lesbekova al2588
 Fatima Moizuddin fm467
+
+
 In this lab we analyzed a real water-to-water heat exchanger and compared its performance in parallel flow and counterflow configurations. Our goals were to (1) describe how the exchanger works physically, (2) apply mass, energy, and entropy balances to a real system, and (3) determine how changing an operating/design condition changes performance. Heat exchangers like this are central to many engineering systems, including car radiators, HVAC units, power-plant condensers and feedwater heaters, chemical reactors with cooling jackets, and refrigeration systems. Therefore, this lab provided us with a realistic thermodynamics outcome to share with employers.
 
 A heat exchanger is a device that transfers heat from a hot fluid to a cold fluid without allowing the two fluids to mix. The fluids flow through separate channels, and heat moves through the wall from the hotter side to the colder side. As the hot fluid releases heat and cools down, the cold fluid absorbs that heat and warms up. They can be arranged in both parallel flow where both fluids move in the same direction, or counterflow where they move in opposite directions.
