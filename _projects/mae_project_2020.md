@@ -23,17 +23,17 @@ Counterflow: hot and cold streams flow in opposite directions. This maintains a 
 ![Heat exchanger setup](assets/images/Calculation.png)
 ![Heat exchanger setup](assets/images/DATA.png)
 
-![Heat exchanger setup]({{ "/assets/images/chematic.png" | relative_url }})
-![Heat exchanger setup]({{ "/assets/images/CV.png" | relative_url }})
-![Heat exchanger setup]({{ "/assets/images/TABLE.png" | relative_url }})
-![Heat exchanger setup]({{ "/assets/images/Calculation.png" | relative_url }})
-![Heat exchanger setup]({{ "/assets/images/DATA.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/chematic.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Heat exchanger setup]({{ "/assets/images/CV.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Heat exchanger setup]({{ "/assets/images/TABLE.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Heat exchanger setup]({{ "/assets/images/Calculation.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Heat exchanger setup]({{ "/assets/images/DATA.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
 Observation: Based on the cold-side measurements, the exchanger transferred roughly 8–13 kW across our runs.
 We expect some mismatch in Qc and Qh because of real-system effects, heat loss from tubing/exchanger to the room, unequal pump flow rates, imperfect reservoir mixing, and thermometer lag/placement. This is typical outside ideal textbook conditions.
 
-![Heat exchanger setup]({{ "/assets/images/EFFECTIVE_NE.png" | relative_url }})
+![Heat exchanger setup]({{ "/assets/images/EFFECTIVE_NE.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 
 For the most fair comparison between flow arrangements, we looked at our second parallel-flow run and our first counterflow run because they began with nearly the same hot-side starting temperature, around 35 degrees Celsius, and very similar cold-side starting temperatures. Under these matched conditions, the counterflow setup performed a little better: it achieved a slightly higher effectiveness and transferred heat to the cold stream at a slightly greater rate than the parallel-flow setup. 
