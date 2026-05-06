@@ -31,7 +31,7 @@ A scalable detection and removal pathway:
 ### Key risks / unknowns
 Detection accuracy (eggs blend into bark), false positives, surface damage risk, and regulatory/operational constraints for drone use. :contentReference[oaicite:5]{index=5}
 
-[View Client Pitch (PDF)]({{ '/assets/pdf/O3_Breadwinners_ClientOutline.pdf' | relative_url }})
+[View Client Pitch (PDF)]({{ '/assets/MAE_2250_Client_Outline.pdf' | relative_url }})
 
 ---
 
@@ -57,7 +57,7 @@ A cable-tension scraping head mounted to an extendable pole concept. The scraper
 - **Cable retention:** 0 derailments over 20 consecutive motion cycles. :contentReference[oaicite:13]{index=13}  
 - **Usability/stability:** usable on an extendable pole across multiple users without excessive wobble. :contentReference[oaicite:14]{index=14}  
 
-[View Functional Prototype (PDF)]({{ '/assets/pdf/O5_Breadwinners_FunctionalPrototype.pdf' | relative_url }})
+[View Functional Prototype (PDF)]({{ '/assets/Functional_Prototype' | relative_url }})
 
 ---
 
@@ -73,6 +73,6 @@ We focused on mechanically removing SLF egg masses where accessibility is the ma
 ### Conclusion and recommended next steps
 The cable-tension scraper is promising and scalable as a chemical-free approach. Recommended improvements include adding an egg-mass catcher/net, strengthening fasteners/mounting, weatherproofing, and redesigning spring/tension components to reduce jamming and improve long-term durability. :contentReference[oaicite:18]{index=18}
 
-[View Client Report (PDF)]({{ '/assets/pdf/O6_Breadwinners_ClientReport.pdf' | relative_url }})
+[View Client Report (PDF)]({{ '/assets/Breadwinners_ODP_6.pdf' | relative_url }})
 
 [Back to top](#top)
