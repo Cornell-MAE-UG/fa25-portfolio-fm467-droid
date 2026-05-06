@@ -2,7 +2,7 @@
 layout: project
 title: MAE 2250 – Breadwinners
 description: Client Pitch, Functional Prototype, and Client Report
-image: /assets/images/your_image_here.jpeg
+
 ---
 
 <div id="top"></div>
