@@ -56,7 +56,7 @@ A cable-tension scraping head mounted to an extendable pole concept. The scraper
 - **Cable retention:** 0 derailments over 20 consecutive motion cycles.
 - **Usability/stability:** usable on an extendable pole across multiple users without excessive wobble.
 
-[View Functional Prototype (PDF)]({{ '/assets/Functional Prototype.pdf' | relative_url }})
+[View Functional Prototype (PDF)]({{ '/assets/Functional_Prototype.pdf' | relative_url }})
 
 ---
 
